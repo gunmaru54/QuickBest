@@ -5,7 +5,8 @@ import {
   Calendar, 
   CircleDot, 
   RotateCw,
-  QrCode
+  QrCode,
+  Percent
 } from 'lucide-react';
 import { getDictionary, Locale } from '@/lib/i18n';
 import { Metadata } from 'next';
@@ -72,6 +73,13 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
       href: `/${lang}/qr-code-generator`,
       icon: QrCode,
       category: dict.tools.qr_code_generator.category,
+    },
+    {
+      name: dict.tools.percentage_calculator.name,
+      description: dict.tools.percentage_calculator.description,
+      href: `/${lang}/percentage-calculator`,
+      icon: Percent,
+      category: dict.tools.percentage_calculator.category,
     },
   ];
 

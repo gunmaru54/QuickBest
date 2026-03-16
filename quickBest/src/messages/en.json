@@ -40,7 +40,35 @@
       "name": "QR Code Generator",
       "description": "Create a custom QR code for any text or URL.",
       "category": "Utilities"
+    },
+    "percentage_calculator": {
+      "name": "Percentage Calculator",
+      "description": "Calculate percentages for various scenarios.",
+      "category": "Calculators"
     }
+  },
+  "percentage_calculator": {
+    "title": "Percentage Calculator",
+    "meta_title": "Percentage Calculator - Free Online Tool - QuickTools",
+    "meta_description": "Calculate percentages quickly with our free online tool. Support for percentage of, percentage change, and more.",
+    "about_title": "How to use the Percentage Calculator?",
+    "about_p1": "QuickTools' Percentage Calculator is a versatile tool designed to handle common percentage-related calculations. Whether you need to find a percentage of a number, determine what percentage one number is of another, or calculate percentage increases and decreases, this tool has you covered.",
+    "about_p2": "The calculator provides five different modes: 'What is X% of Y?', 'X is what percentage of Y?', 'X increased by Y%', 'X decreased by Y%', and 'What is the percentage change from X to Y?'. Simply enter the numbers and the result will update instantly.",
+    "about_p3": "All calculations are performed within your browser, ensuring your data remains private. It's a handy tool for shopping, financial planning, or academic work.",
+    "label_is": "is",
+    "label_of": "of",
+    "label_what_is": "What is",
+    "label_percentage_of": "% of",
+    "label_what_percentage_is": "is what % of",
+    "label_percentage_change": "Percentage change from",
+    "label_to": "to",
+    "label_result": "Result",
+    "label_increase": "Increase",
+    "label_decrease": "Decrease",
+    "label_increased_by": "Increased by",
+    "label_decreased_by": "Decreased by",
+    "label_rate_of_change": "Rate of change",
+    "label_discount": "Discount"
   },
   "qr_code_generator": {
     "title": "QR Code Generator",

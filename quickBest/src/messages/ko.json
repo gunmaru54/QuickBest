@@ -40,7 +40,35 @@
       "name": "QR 코드 생성기",
       "description": "어떤 텍스트나 URL에 대해서도 맞춤형 QR 코드를 생성합니다.",
       "category": "유틸리티"
+    },
+    "percentage_calculator": {
+      "name": "퍼센트 계산기",
+      "description": "다양한 상황에 대한 퍼센트를 계산합니다.",
+      "category": "계산기"
     }
+  },
+  "percentage_calculator": {
+    "title": "퍼센트 계산기",
+    "meta_title": "퍼센트 계산기 - 무료 온라인 도구 - QuickTools",
+    "meta_description": "무료 온라인 도구로 퍼센트를 빠르게 계산하세요. 비율 계산, 증감율 계산 등을 지원합니다.",
+    "about_title": "퍼센트 계산기는 어떻게 사용하나요?",
+    "about_p1": "QuickTools의 퍼센트 계산기는 일상생활에서 자주 쓰이는 퍼센트 관련 계산을 처리하기 위해 설계된 다목적 도구입니다. 숫자의 특정 퍼센트를 구하거나, 한 숫자가 다른 숫자의 몇 퍼센트인지 확인하거나, 퍼센트 증가 및 감소를 계산해야 할 때 유용합니다.",
+    "about_p2": "이 계산기는 다섯 가지 모드를 제공합니다: '전체의 몇 %인지', '주자가 전체의 몇%인지', '퍼센트 증가 계산', '퍼센트 감소 계산', '두 값 사이의 증가율'. 숫자를 입력하기만 하면 결과가 즉시 업데이트됩니다.",
+    "about_p3": "모든 계산은 브라우저 내에서 수행되므로 데이터 프라이버시가 보장됩니다. 쇼핑, 재무 계획 또는 학업에 유용한 도구입니다.",
+    "label_is": "은(는)",
+    "label_of": "의",
+    "label_what_is": "",
+    "label_percentage_of": "%는?",
+    "label_what_percentage_is": "은(는) 몇 %?",
+    "label_percentage_change": "퍼센트 변화:",
+    "label_to": "→",
+    "label_result": "결과",
+    "label_increase": "증가",
+    "label_decrease": "감소",
+    "label_increased_by": "% 증가하면?",
+    "label_decreased_by": "% 할인",
+    "label_rate_of_change": "증가율?",
+    "label_discount": "할인"
   },
   "qr_code_generator": {
     "title": "QR 코드 생성기",
