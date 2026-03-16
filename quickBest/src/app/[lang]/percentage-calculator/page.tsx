@@ -26,23 +26,18 @@ export default async function PercentageCalculatorPage({ params: { lang } }: { p
   const pcDict = dict?.percentage_calculator || {
     title: "Percentage Calculator",
     about_title: "How to use the Percentage Calculator?",
-    about_p1: "",
-    about_p2: "",
-    about_p3: "",
-    label_is: "is",
-    label_of: "of",
-    label_what_is: "What is",
-    label_percentage_of: "% of",
-    label_what_percentage_is: "is what % of",
-    label_percentage_change: "Percentage change from",
-    label_to: "to",
-    label_result: "Result",
-    label_increase: "Increase",
-    label_decrease: "Decrease",
-    label_increased_by: "Increased by",
-    label_decreased_by: "Decreased by",
-    label_rate_of_change: "Rate of change",
-    label_discount: "Discount"
+    about_p1: "QuickTools' Percentage Calculator now supports three modes: percent of a number, increase by percent, and decrease by percent.",
+    about_p2: "예: '200의 15%' → 30, '200에서 15% 증가' → 230, '200에서 15% 감소' → 170",
+    about_p3: "모든 계산은 브라우저에서 즉시 수행됩니다.",
+    title_mode1: "퍼센트 구하기",
+    title_mode2: "증가 계산",
+    title_mode3: "감소 계산",
+    example_mode1: "예: 200의 15%는 30",
+    example_mode2: "예: 200에서 15% 증가하면 230",
+    example_mode3: "예: 200에서 15% 감소하면 170",
+    label_percent: "%",
+    label_of: "의",
+    label_result: "결과"
   };
 
   return (
@@ -53,7 +48,7 @@ export default async function PercentageCalculatorPage({ params: { lang } }: { p
         </h1>
         
         <div className="mb-12">
-          <PercentageCalculator dict={pcDict} />
+          <PercentageCalculator dict={pcDict} lang={lang} />
         </div>
 
         <article className="prose dark:prose-invert max-w-none bg-gray-50 dark:bg-[#1a1a1a] p-8 rounded-3xl border dark:border-gray-800 transition-colors duration-300">
